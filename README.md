@@ -3,11 +3,18 @@
 
 ## step to step:
 ```bash
-react-native init --version="0.44.0" NavigationExample
-cd NavigationExample
+# Create a new React Native App
+react-native init SimpleApp
+cd SimpleApp
+
+# Install the latest version of react-navigation from npm
+npm install --save react-navigation
+
+# Run the new app
+react-native run-android # or:
 react-native run-ios
-yarn add react-native-navigation@latest
 ```
 
 ## resources:
-+ https://wix.github.io/react-native-navigation/#/usage
++ https://reactnavigation.org/docs/navigators/tab
++ https://expo.io/@react-navigation/NavigationPlayground
